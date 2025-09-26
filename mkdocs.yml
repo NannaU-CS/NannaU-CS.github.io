@@ -1,0 +1,79 @@
+# Project Information
+site_name: NannaU CS 生存指南
+site_description: NannaU CS Wiki 维护了南京大学计算机本科的一些资料
+site_author: NannaU CS Group
+
+repo_name: 'NannaU-CS/nannau-cs.github.io'
+repo_url: 'https://github.com/NannaU-CS/nannau-cs.github.io'
+edit_uri: 'edit/main/docs'
+
+theme:
+  name: material
+  language: 'zh'
+  custom_dir: overrides
+
+# Contents
+nav:
+  - 简介: index.md
+  - 校内课程:
+    - 通修课:
+      - basic test: courses/basic/test.md
+    - 平台课:
+      - platform test: courses/platform/test.md
+    - 核心课:
+      - core test: courses/core/test.md
+    - 选修课:
+      - elective test: courses/elective/test.md
+  - 人生指南:
+    - 保研:
+      - 简介: life/baoyan/index.md
+    - 考研:
+      - 简介: life/caoyan/index.md
+    - 出国:
+      - 简介: life/abroad/index.md
+    - 就业:
+      - 简介: life/employment/index.md
+    - 考公:
+      - 简介: life/kaogong/index.md
+  - 贡献指南: contributing.md
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+      linenums: true
+  - def_list
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.snippets
+  - pymdownx.progressbar
+  - pymdownx.smartsymbols
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: math
+          class: arithmatex
+          format: !!python/name:pymdownx.arithmatex.fence_mathjax_format
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
