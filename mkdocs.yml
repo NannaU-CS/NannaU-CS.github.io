@@ -7,6 +7,32 @@ repo_name: 'NannaU-CS/nannau-cs.github.io'
 repo_url: 'https://github.com/NannaU-CS/nannau-cs.github.io'
 edit_uri: 'edit/main/docs'
 
+nav:
+  - 简介:
+    - index.md
+    - 贡献指南: intro/contributing.md
+  - 选课指南:
+    - 前言: courses/preface.md
+    - 通修课:
+      - basic test: courses/basic/test.md
+    - 平台课:
+      - platform test: courses/platform/test.md
+    - 核心课:
+      - core test: courses/core/test.md
+    - 选修课:
+      - elective test: courses/elective/test.md
+  - 人生指南:
+    - 保研:
+      - 简介: life/baoyan/index.md
+    - 考研:
+      - 简介: life/caoyan/index.md
+    - 出国:
+      - 简介: life/abroad/index.md
+    - 就业:
+      - 简介: life/employment/index.md
+    - 考公:
+      - 简介: life/kaogong/index.md
+
 theme:
   name: material
   palette:
@@ -34,33 +60,10 @@ theme:
     - navigation.tracking
     - navigation.tabs
     - navigation.tabs.sticky
+    - content.action.edit
   language: 'zh'
   custom_dir: overrides
 
-# Contents
-nav:
-  - 简介: index.md
-  - 校内课程:
-    - 通修课:
-      - basic test: courses/basic/test.md
-    - 平台课:
-      - platform test: courses/platform/test.md
-    - 核心课:
-      - core test: courses/core/test.md
-    - 选修课:
-      - elective test: courses/elective/test.md
-  - 人生指南:
-    - 保研:
-      - 简介: life/baoyan/index.md
-    - 考研:
-      - 简介: life/caoyan/index.md
-    - 出国:
-      - 简介: life/abroad/index.md
-    - 就业:
-      - 简介: life/employment/index.md
-    - 考公:
-      - 简介: life/kaogong/index.md
-  - 贡献指南: contributing.md
 
 markdown_extensions:
   - admonition
