@@ -28,7 +28,7 @@ NannaU (南哪大学) CS 生存指南希望为南京大学计算机学院的本�
 
     添加一个新的页面稍微有点麻烦。
     
-    * 如果你了解 [mkdocs](https://www.mkdocs.org/) 的使用方法，可以参考[贡献指南](./intro/contributing.md)来本地添加 `.md` 文件、修改 `mkdocs.yml` 文件中的 `nav` 配置，并提交 Pull request。推荐你使用这种方式！
+    * 如果你了解 [mkdocs](https://www.mkdocs.org/) 的使用方法，可以参考[贡献指南](https://github.com/NannaU-CS/NannaU-CS.github.io/tree/main/docs/intro/contributing.md)来本地添加 `.md` 文件、修改 `mkdocs.yml` 文件中的 `nav` 配置，并提交 Pull request。推荐你使用这种方式！
 
     * 如果不太了解，也没关系！在 [仓库的源文件](https://github.com/NannaU-CS/NannaU-CS.github.io/tree/main/docs) 的合适目录下，点击 "Add file" → "Create new file" 来新建一个 `.md` 文件，填写内容后点击右上角的 Commit changes, 再选择 "Create a new branch for this commit and start a pull request."，最后点击 "Propose changes" 即可提交修改！管理员帮你进行 `mkdocs.yml` 的修改！
     
@@ -36,7 +36,7 @@ NannaU (南哪大学) CS 生存指南希望为南京大学计算机学院的本�
 
 4. **本地编辑**
 
-    请参考[贡献指南](./intro/contributing.md)来进行本地编辑，并提交 Pull request。
+    请参考[贡献指南](https://github.com/NannaU-CS/NannaU-CS.github.io/tree/main/docs/intro/contributing.md)来进行本地编辑，并提交 Pull request。
 
 
 如果依然对如何编辑有疑问，可以参照 [OI-Wiki 上相关页面](https://oi-wiki.org/intro/htc) 来进行编辑
